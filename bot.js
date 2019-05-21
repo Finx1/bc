@@ -141,7 +141,7 @@ client.on("message", async message => {
 });
 
 const adminprefix = "%";\\كرافكس
-const devs = ['اى دى حقك','اى جى شخص اخرى']
+const devs = ['285760610010923008','285760610010923008']
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -182,7 +182,7 @@ client.on("message", async message => {
 			4-${prefix}setname = الـى تـغـيـر اسـم [ :pencil: ]
 			***
 			▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-			||*** </>~~Me Codes © ***||
+			||*** -FINx#1073 © ***||
 			▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`);
             message.channel.sendEmbed(Ex);
     }
