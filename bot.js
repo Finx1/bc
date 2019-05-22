@@ -1,6 +1,6 @@
-﻿﻿const Discord = require("discord.js");
+﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "%";\\ كرافكس
+const prefix = "=";
 
 client.on("message", async message => {
     var command = message.content.split(" ")[0];
@@ -88,7 +88,7 @@ client.on("message", async message => {
 });
 
 client.on("message", message => {
-    var prefix = "%";\\كرافكس
+    var prefix = "=";
         if (message.author.id === client.user.id) return;
         if (message.guild) {
        let embed = new Discord.RichEmbed()
@@ -122,7 +122,7 @@ client.on("message", async message => {
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
             .setDescription(`╔════════════════════════════════════╗
-			║             :radio: :microphone2: ***__بـــوت اعــلانــات ${message.guild.name}__***:radio: :microphone2: 
+			║             :radio: :microphone2: ***__=bc ${message.guild.name}__***:radio: :microphone2: 
 			║
 			║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 			║                                   :shield: **__اوامـــــــر بــــوت__**:shield: 
@@ -140,7 +140,7 @@ client.on("message", async message => {
     }
 });
 
-const adminprefix = "%";\\كرافكس
+const adminprefix = "=";
 const devs = ['285760610010923008','285760610010923008']
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -182,7 +182,7 @@ client.on("message", async message => {
 			4-${prefix}setname = الـى تـغـيـر اسـم [ :pencil: ]
 			***
 			▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-			||*** -FINx#1073 © ***||
+			||*** -FINx#1073© ***||
 			▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`);
             message.channel.sendEmbed(Ex);
     }
